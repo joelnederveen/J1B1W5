@@ -1,0 +1,58 @@
+#lijntje {
+	border-bottom: 1px solid grey;
+}
+
+#container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+#box>p {
+	background-color: #def6ed;
+	padding: 5px;
+}
+
+span {
+	font-weight: bold;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+h1 {
+	line-height: 36px;
+	font-size: 36px;
+	margin-top: 50px;
+}
+h2 {
+	line-height:32px;
+	font-size:32px;
+}
+
+ul {
+	line-height: 26px; 
+}
+
+.kutknoppen{
+	top: 2%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.kutknoppen>li {
+
+	display: inline-block;
+	padding: 0px 15px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: red;
+} 
+
+img[src="wrap.jpg"] {
+	width: 600px;
+}
